@@ -118,8 +118,11 @@
             </div>
 
             <Paragraph>With these API we can easily manage our VM or Container with a script writen in Python or Bash for exemple.</Paragraph>
-        
-            <h3 class="text-md font-semibold">The knowledge and skills mobilized</h3>
+        </div>
+    </section>
+    <section>
+        <h2 class="text-2xl py-2">The knowledge and skills mobilized</h2>
+        <div>
             <Paragraph>In this course I already know the used of an Rest api and the used of VirtualBox and how to communicate with a VM.</Paragraph>
             <Paragraph>However, I learn how to work with OpenStack and how we can scale, deploy, clone a VM on demand. Moreover, I learn how to use Docker and how I can isolate my application, because I create a lot of web application and now I know how I can isolate them withou creating another VM.</Paragraph>
         </div>

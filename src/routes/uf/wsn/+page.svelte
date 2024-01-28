@@ -32,12 +32,16 @@
                     </p>
                 </div>
             </div>
-            <Paragraph>We choose this channel access, because there will be an important amount of sensors in the house.</Paragraph>
-            <Paragraph>The Python execute a function on every samples, and we can modify these samples. To implement the CSMA/CA, I had to build the FFT on the channel we listen to detect if there are to detect if another sensor is emitting</Paragraph>
+            <Paragraph>We choose this channel access, because there will be an important amount of sensors in the house. The Python execute a function on every samples, and we can modify these samples. To implement the CSMA/CA, I had to build the FFT on the channel we listen to detect if there are to detect if another sensor is emitting.</Paragraph>
             <Paragraph>Now, I can detect if there are other sensors that emitting on the channel. The next step was just to develop the algorithm and to track the system state. As we the main function executes all the samples we can easily update the system.</Paragraph>
-            <Paragraph>The main problem we had, was the time, because we didn't have time to assemble the Physical layer with the Mac layer.</Paragraph>
-
-            <h3 class="text-md font-semibold">The knowledge and skills mobilized</h3>
+            <Paragraph>The main problem we had was the time, because we didn't have time to assemble the Physical layer with the Mac layer. Yours lack knowledge in GNU radio was also a blocking point because, we didn't know how some block was working.</Paragraph>
+        </div>
+    </section>
+    <section>
+        <h2 class="text-2xl py-2">The knowledge and skills mobilized</h2>
+        <div>
+            <Paragraph>This course has made me realise that the protocols we use every day in computing are not necessarily the best solutions when energy consumption is a critical factor.</Paragraph>
+            <Paragraph>I used my knowledge of signal analysis and processing to implement the FFT in my Python code for the CSMA/CA implementation. Moreover, I've been able to find out in practical terms how to build and implement a protocol specifically designed for iot and a particular application.</Paragraph>
         </div>
     </section>
 </div>

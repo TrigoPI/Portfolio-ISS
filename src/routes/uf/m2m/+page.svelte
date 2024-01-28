@@ -78,4 +78,11 @@
         
         <Paragraph>For this part, we just discovered how to use the protocol via a notebook.</Paragraph>
     </section>
+    <section>
+        <h2 class="text-2xl py-2">The knowledge and skills mobilized</h2>
+        <div>
+            <Paragraph>I really liked this UF, even if the part about OneM2M would have been more practical than a notebook.</Paragraph>
+            <Paragraph>I've discovered how to make objects communicate using various protocols specially designed for iot and got back into Arduino programming.</Paragraph>
+        </div>
+    </section>
 </div>

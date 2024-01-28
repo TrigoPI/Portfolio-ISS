@@ -126,9 +126,13 @@ public async GetServicesDesc(): Promise<Response> {
             <Paragraph>For that, we created a controller that can communicate with all the microservices and a web interface to configure them.</Paragraph>
             <Quote>Mettre une image de Tetras API</Quote>
             <Paragraph>Now with that, for each new sensor we add on our system, we just have to develop the micro-service associated and the sofware will take care of the new micro-service. You can find a more detail explanation in the report.</Paragraph>
-        
-            <h3 class="text-md font-semibold">The knowledge and skills mobilized</h3>
+        </div>
+    </section>
+    <section>
+        <h2 class="text-2xl py-2">The knowledge and skills mobilized</h2>
+        <div>
             <Paragraph>I already know about Rest api and how that work. I use my knowlege of Web technologies like TypeScript and Express to easily build an api and use some advanced JavaScript features, like hot reloading (reloading a file without having to restart the application).</Paragraph>
+            <Paragraph>I learned how to build a backend splited in microservices and somes effective ways to get them to communicate with each other. In addition, I can now combine this knowledge with my cloud and web knowledge to be able to build a complete web application.</Paragraph>
         </div>
     </section>
 </div>
