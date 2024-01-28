@@ -6,7 +6,7 @@
 </script>
 
 <a 
-    href="/"
+    href="{base}/"
     class="fixed top-0 left-0 p-4 z-50 text-2xl opacity-30 duration-150 hover:opacity-100 hover:scale-105 text-blue-400"
 >
     <Fa icon={ faHome } />
