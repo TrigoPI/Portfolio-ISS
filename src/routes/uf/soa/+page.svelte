@@ -1,6 +1,4 @@
 <script lang="ts">
-    import "svelte-highlight/styles/github.css";
-
     import Highlight from "svelte-highlight";
     import typescript from "svelte-highlight/languages/typescript";
     import bash from "svelte-highlight/languages/bash";

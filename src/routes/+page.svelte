@@ -64,7 +64,7 @@
             />
             <Chapter 
                 title="AI"
-                link="{base}/uf/"
+                link="{base}/uf/ai"
                 icon={ faBrain }
             />
             <Chapter 
