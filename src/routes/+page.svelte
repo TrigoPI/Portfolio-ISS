@@ -72,11 +72,11 @@
                 link="{base}/uf/"
                 icon={ faLock }
             />
-            <Chapter 
+            <!-- <Chapter 
                 title="Emerging network"
                 link="{base}/uf/"
                 icon={ faNetworkWired }
-            />
+            /> -->
         </div>
     </section>
 
