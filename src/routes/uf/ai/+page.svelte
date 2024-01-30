@@ -1,8 +1,6 @@
 <script>
 	import BigImage from "../../../components/big-image.svelte";
-    import List from "../../../components/list.svelte";
     import Paragraph from "../../../components/paragraph.svelte";
-    import Quote from "../../../components/quote.svelte";
 </script>
 
 <BigImage 
@@ -28,7 +26,7 @@
                 <div class="w-96">
                     <img src="https://pyrenees-parcnational.fr/sites/pyrenees-parcnational.fr/files/styles/slide_1500_1000/public/tetras3.jpg?itok=ZB33C0tm" alt="Grand Tetras">
                     <p class="italic font-thin text-center py-2">
-                        <a href="pyrenees-parcnational.fr/sites/pyrenees-parcnational.fr/files/styles/slide_1500_1000/public/tetras3.jpg?itok=ZB33C0tm">Grand Tetras</a>
+                        <a href="https://pyrenees-parcnational.fr/sites/pyrenees-parcnational.fr/files/styles/slide_1500_1000/public/tetras3.jpg?itok=ZB33C0tm">Grand Tetras</a>
                     </p>
                 </div>
             </div>
