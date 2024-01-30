@@ -116,7 +116,7 @@ deviceService.enqueue(enqueueReq, metadata, (err, resp) => {
 
             <div class="py-2">
                 <a href="https://www.chirpstack.io/docs/chirpstack/api/js-examples.html" class="italic">
-                    <center>https://www.chirpstack.io/docs/chirpstack/api/js-examples.html</center>
+                    <center>ChirpStack exemple</center>
                 </a>
             </div>
 
