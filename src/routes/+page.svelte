@@ -1,11 +1,12 @@
 <script lang="ts">
     import { base } from "$app/paths";
 
-    import { faBrain, faCircleNodes, faCloud, faGlobe, faHouseSignal, faLock, faNetworkWired, faTowerCell, faUser } from "@fortawesome/free-solid-svg-icons";
+    import { faBolt, faBrain, faCircleNodes, faCloud, faGlobe, faHouseSignal, faLock, faNetworkWired, faTowerCell, faUser } from "@fortawesome/free-solid-svg-icons";
 	import { faAndroid } from "@fortawesome/free-brands-svg-icons";
 
 	import Chapter from "./chapter.svelte";
 	import Cv from "./cv.svelte";
+	import Paragraph from "../components/paragraph.svelte";
 
 </script>
 
@@ -69,20 +70,21 @@
             />
             <Chapter 
                 title="Security"
-                link="{base}/uf/"
+                link="{base}/uf/security"
                 icon={ faLock }
             />
-            <!-- <Chapter 
-                title="Emerging network"
-                link="{base}/uf/"
-                icon={ faNetworkWired }
-            /> -->
+            <Chapter 
+                title="Skills Matrix"
+                link="https://drive.google.com/drive/folders/1EnVcJqeLoouSE7C2lwz3xo8-MWrAQmC7?usp=drive_link"
+                icon={ faBolt }
+            />
         </div>
     </section>
 
     <section>
-        <h2 class="text-5xl py-24">Conclusion</h2>
+        <h2 class="text-5xl py-2">Conclusion</h2>
         <div class="py-2">
+            <Paragraph>When I started at INSA, I wanted to do networking, but as time went by I realized that web development interested me more and more, and that's why I chose ISS, as it encompassed most of the subjects I was interested in.</Paragraph>
         </div>
     </section>
 </div>

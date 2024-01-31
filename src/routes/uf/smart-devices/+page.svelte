@@ -93,7 +93,7 @@ deviceService.enqueue(enqueueReq, metadata, (err, resp) => {
                 <div class="max-w-2xl">
                     <img src={ Circuit } alt=" transimpedance amplifier">
                     <p class="italic font-thin text-center py-2">
-                        <span> transimpedance amplifier</span>
+                        <span>transimpedance amplifier</span>
                     </p>
                 </div>
             </div>
