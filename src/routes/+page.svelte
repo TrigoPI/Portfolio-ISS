@@ -7,6 +7,7 @@
 	import Chapter from "./chapter.svelte";
 	import Cv from "./cv.svelte";
 	import Paragraph from "../components/paragraph.svelte";
+	import Fa from "svelte-fa";
 
 </script>
 
@@ -32,7 +33,7 @@
 
     <section>
         <h2 class="text-5xl pt-4 pb-12">Chapters</h2>
-        <div class="chapters-grid justify-center">
+        <div class="chapters-grid justify-center py-12">
             <Chapter 
                 title="Service Oriented Architecture"
                 link="{base}/uf/soa"
@@ -73,11 +74,17 @@
                 link="{base}/uf/security"
                 icon={ faLock }
             />
-            <Chapter 
-                title="Skills Matrix"
-                link="https://drive.google.com/drive/folders/1EnVcJqeLoouSE7C2lwz3xo8-MWrAQmC7?usp=drive_link"
-                icon={ faBolt }
-            />
+            <a 
+                href="https://docs.google.com/spreadsheets/d/1PZVjrCK6dcHxQr1n-zz10F3lho7dfKMW/edit?usp=drive_link&ouid=109299935010732913269&rtpof=true&sd=true"
+                class="flex flex-col items-center gap-4 rounded-md px-12 py-8 shadow-lg duration-150 hover:scale-110"
+            >
+                <div class="px-4 text-2xl border-b flex-1">
+                    <h1 class="text-center py-2">Skills Matrix</h1>
+                </div>
+                <div class="text-3xl py-4">
+                    <Fa icon={ faBolt } />
+                </div>
+            </a>
         </div>
     </section>
 
