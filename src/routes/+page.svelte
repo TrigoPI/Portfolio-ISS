@@ -33,7 +33,7 @@
 
     <section>
         <h2 class="text-5xl pt-4 pb-12">Chapters</h2>
-        <div class="chapters-grid justify-center">
+        <div class="chapters-grid py-12 justify-center">
             <Chapter 
                 title="Service Oriented Architecture"
                 link="{base}/uf/soa"
