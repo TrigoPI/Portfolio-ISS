@@ -1,7 +1,7 @@
 <script lang="ts">
     import { base } from "$app/paths";
 
-    import { faBolt, faBrain, faCircleNodes, faCloud, faGlobe, faHouseSignal, faLock, faNetworkWired, faTowerCell, faUser } from "@fortawesome/free-solid-svg-icons";
+    import { faBolt, faBrain, faCircleNodes, faCloud, faFolder, faGlobe, faHouseSignal, faLock, faNetworkWired, faTowerCell, faUser } from "@fortawesome/free-solid-svg-icons";
 	import { faAndroid } from "@fortawesome/free-brands-svg-icons";
 
 	import Chapter from "./chapter.svelte";
@@ -33,7 +33,7 @@
 
     <section>
         <h2 class="text-5xl pt-4 pb-12">Chapters</h2>
-        <div class="chapters-grid justify-center py-12">
+        <div class="chapters-grid justify-center">
             <Chapter 
                 title="Service Oriented Architecture"
                 link="{base}/uf/soa"
@@ -79,10 +79,21 @@
                 class="flex flex-col items-center gap-4 rounded-md px-12 py-8 shadow-lg duration-150 hover:scale-110"
             >
                 <div class="px-4 text-2xl border-b flex-1">
-                    <h1 class="text-center py-2">Skills Matrix</h1>
+                    <h1 class="text-center py-2">Skill Matrixs</h1>
                 </div>
                 <div class="text-3xl py-4">
                     <Fa icon={ faBolt } />
+                </div>
+            </a>
+            <a 
+                href="https://drive.google.com/drive/folders/15NRXU-UHsJvPkJG8JdqNPmcRUBxMzVuv?usp=drive_link"
+                class="flex flex-col items-center gap-4 rounded-md px-12 py-8 shadow-lg duration-150 hover:scale-110"
+            >
+                <div class="px-4 text-2xl border-b flex-1">
+                    <h1 class="text-center py-2">Repports</h1>
+                </div>
+                <div class="text-3xl py-4">
+                    <Fa icon={ faFolder } />
                 </div>
             </a>
         </div>
@@ -92,6 +103,9 @@
         <h2 class="text-5xl py-2">Conclusion</h2>
         <div class="py-2">
             <Paragraph>When I started at INSA, I wanted to do networking, but as time went by I realized that web development interested me more and more, and that's why I chose ISS, as it encompassed most of the subjects I was interested in.</Paragraph>
+            <Paragraph>When I arrived at ISS I thought I wasn't going to like the more electronics-oriented subjects, but in the end I rather enjoyed them even though I don't have a great deal of expertise in this subject. Even if I wouldn't be able to make complex circuits, I at least think I have the skills to understand how it works if it's explained to me.</Paragraph>
+            <Paragraph>What I also really enjoyed was working with people from different backgrounds. Even if some subjects are more oriented towards one field, each person has a different point of view depending on their orientation. This was particularly evident in the innovative project, where each member of our group was able to contribute his or her expertise, whether in electronics or software.</Paragraph>
+            <Paragraph>I've been meaning to do a portfolio for a long time, but in the end I never got round to it because I wasn't sure what to put in it. I think I'll continue to update this portfolio as the years go by, but I'll just put projects that are more related to what I want to do.</Paragraph>
         </div>
     </section>
 </div>
