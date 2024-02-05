@@ -19,7 +19,7 @@
     <section>
         <div class="flex flex-col gap-4 justify-between sm:flex-row">
             <h2 class="text-5xl">Introduction</h2>
-            <p class="text-xl text-justify sm:w-8/12">Hey!! Welcome to my portfolio, I'm a 5ISS student at INSA Toulouse. I chose this orientation because it has the most modules that I liked related to web development that I liked related to web development. In this portfolio I will describe what I did this semester. I invite you to explore my portfolio, where you'll find a collection of my work.</p>
+            <p class="text-xl text-justify sm:w-8/12">Hey!! Welcome to my portfolio, I'm a 5ISS student at INSA Toulouse. I chose this orientation because it has the most modules that I liked related to web development. In this portfolio I will describe what I did this semester. I invite you to explore my portfolio, where you'll find a collection of my work.</p>
         </div>
     </section>
 
